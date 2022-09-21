@@ -15,6 +15,6 @@
 # **=次方
 
 # git add .
-# commit -m "提示文字
+# git commit -m "提示文字
 # git push
 # a=1
