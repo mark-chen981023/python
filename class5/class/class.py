@@ -37,3 +37,15 @@ elif password == "9876":
     print("Hello!")
 else:
     print("哈囉!你是小偷嗎?")
+# score = float(input("Please input score: "))
+# if score >= 90:
+# grade = "A"
+# if score >= 80 and score < 90:
+# grade = "B"
+# if score >= 70 and score < 80:
+# grade = "C"
+# if score >= 60 and score < 70:
+# grade = "D"
+# else:
+# grade = "E"
+# print("Your grade is:" + grade)
