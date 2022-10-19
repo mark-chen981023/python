@@ -1,7 +1,5 @@
 import turtle as t
 
-from pygame import BLEND_MULT
-
 # t.forward(100)
 # for i in range(3):
 #     t.right(90)

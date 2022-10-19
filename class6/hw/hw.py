@@ -5,9 +5,13 @@ t0_turtle_stamp.jpg
 turtle.home()是讓烏龜回到原點的指令
 """
 import turtle as t
-for i in range(0, 360, 6):
+
+t.penup()
+t.speed(0)
+
+for i in range(0, 360, 45):
     t.right(i)
     t.forward(100)
-    t.backard(100)
-t.home()
+    t.stamp()
+    t.home()
 t.done()
