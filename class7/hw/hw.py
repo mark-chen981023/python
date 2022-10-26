@@ -15,10 +15,14 @@ EX
 15
 18
 """
+# s = int(input('number'))
+# f = 0
+# g = 0
+# for i in range(0, s + 1, 3):
+#     print(i)
+# for i in range(0, s + 1, 7):
+#     print(i)
 s = int(input('number'))
-f = 0
-g = 0
-for i in range(0, s + 1, 3):
-    print(i)
-for i in range(0, s + 1, 7):
-    print(i)
+for i in range(0, s + 1):
+    if i % 3 == 0 or i % 7 == 0:
+        print(i)
