@@ -15,7 +15,10 @@ EX
 15
 18
 """
-import numbers
-
-s = input(int(number))
-# for i in range()
+s = int(input('number'))
+f = 0
+g = 0
+for i in range(0, s + 1, 3):
+    print(i)
+for i in range(0, s + 1, 7):
+    print(i)
