@@ -15,6 +15,7 @@
 # #5. 關閉檔案
 # myFile.close()
 # 1. 要開啟的檔名
+
 path = "test.txt"
 #2. 指定w/ r /a mode
 f = open(path, 'r')
