@@ -1,6 +1,6 @@
 from machine import Pin, PWM, ADC
 from time import sleep
-import adv05.mcu as mcu
+import adv07.mcu as mcu
 
 frequency = 1000
 duty_cycle = 0
